@@ -11,4 +11,7 @@ import os
 import json
 from getpass import getpass
 from openai import OpenAI
-
+from bs4 import BeautifulSoup
+import requests
+from IPython.display import Markdown, display, update_display
+from google.colab import userdata
