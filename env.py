@@ -15,4 +15,4 @@ from bs4 import BeautifulSoup
 import requests
 from IPython.display import Markdown, display, update_display
 from google.colab import userdata
-import google.generativeai as genai
+import google.genai as genai
