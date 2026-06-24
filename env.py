@@ -17,3 +17,8 @@ from IPython.display import Markdown, display, update_display
 from google.colab import userdata
 import google.generativeai as genai
 import gradio as gr
+
+# Some imports for handling images
+import base64
+from io import BytesIO
+from PIL import Image
